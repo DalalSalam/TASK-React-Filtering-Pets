@@ -5,6 +5,7 @@ import "./assets/css/LineIcons.2.0.css";
 import "./assets/css/main.css";
 import "./assets/css/tiny-slider.css";
 import PetsList from "./Components/PetsList";
+import React, { useState } from "react";
 
 function App() {
   return (
