@@ -3,6 +3,10 @@ import PetItem from "./PetItem";
 
 function PetsList() {
   const petList = pets.map((pet) => <PetItem pet={pet} key={pet.id} />);
+  const [query, setQuery] = [useState]("");
+  const handleChange = (event) => {
+    setQuery(event.target.value);
+  };
 
   return (
     <section id="doctors" className="doctor-section pt-140">
